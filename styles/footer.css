@@ -1,0 +1,11 @@
+/* footer */
+
+.email {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding: 120px 0;
+}
