@@ -15,9 +15,9 @@
 
 .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 51px;
-    gap: 150px;
+    gap: 50px;
 }
 
 
