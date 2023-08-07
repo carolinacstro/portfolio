@@ -1,61 +1,59 @@
 /* header */
 
 .ref::before {
-    content: "<p> ";
+  content: "<p> ";
 }
 
 .ref::after {
-    content: " </p>";
+  content: " </p>";
 }
 
 .container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .menu {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 51px;
-    gap: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 51px;
+  gap: 50px;
 }
 
-
 .menu__item {
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    text-decoration: none;
-    color: var(--black) ;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 33px;
+  text-decoration: none;
+  color: var(--black);
 }
 
 .menu__item:hover {
-    color: var(--pink);
+  color: var(--pink);
 }
 
 .header__title {
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 54px;
-    text-align: center;
-    padding: 120px 0;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+  padding: 120px 0;
 }
 
 .love {
-    color: var(--pink);
+  color: var(--pink);
 }
 
 .header__social-media {
-    justify-content: center;
-    display: flex;
-    gap: 109px;
-    margin-bottom: 119px;
+  justify-content: center;
+  display: flex;
+  gap: 109px;
+  margin-bottom: 119px;
 }
 
 .social-media__icons {
-    width: 44px;
+  width: 44px;
 }
