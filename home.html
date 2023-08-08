@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,16 +11,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/home.css" />
+    <link rel="icon" type="img/png" href="images/logo6.png" />
     <title>Carolina Castro</title>
   </head>
   <body>
     <header class="container">
       <div>
         <nav class="menu">
-          <a class="menu__item" href="home.html">home</a>
-          <a class="menu__item" href="curriculum.html">sobre mim</a>
-          <a class="menu__item" href="curriculum.html">meus projetos</a>
-          <a class="menu__item" href="curriculum.html">currículo</a>
+          <a class="menu__item" href="#">home</a>
+          <a class="menu__item" href="#sobremim">sobre mim</a>
+          <a class="menu__item" href="#projetos">meus projetos</a>
+          <a class="menu__item" href="#">currículo</a>
         </nav>
 
         <div class="main">
@@ -44,28 +45,24 @@
     </header>
 
     <section class="section">
-      <h2 class=""><span class="ref">Olá mundo</span></h2>
+      <h2 id="sobremim" class=""><span class="ref">Olá mundo</span></h2>
 
       <p class="section__text">
-        Me chamo Carolina Castro, sou estudante de Ciência da Computação na
-        Universidade Anhembi Morumbi e apaixonada em aprender! Atualmente
-        trabalho na Accenture <3
+        Me chamo Carolina Castro, trabalho a mais de 2 anos na área de
+        tecnologia, como programadora, e sou muito apaixonada pela área! Estudo
+        Ciências da Computação na Universidade Anhembi Morumbi, e irei me formar
+        no ano de 2024. Atualmente trabalho na Accenture <3
       </p>
     </section>
 
     <section class="projects">
-      <h3 class="projects__title">Projetos</h3>
+      <h3 id="projetos" class="projects__title">Meus Projetos</h3>
 
       <div id="project-cards" class="container__cards"></div>
     </section>
 
     <footer>
       <p class="email">carolinacoliveira@outlook.com</p>
-      <div>
-        <a href="#"><img src="" alt="" /></a>
-        <a href="#"><img src="" alt="" /></a>
-        <a href="#"><img src="" alt="" /></a>
-      </div>
     </footer>
 
     <script src="js/script.js"></script>

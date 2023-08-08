@@ -30,7 +30,7 @@ h2 {
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 33px;
   text-align: center;
   color: var(--black);
@@ -51,7 +51,7 @@ h2 {
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 44px;
   text-align: center;
   padding-bottom: 85px;
@@ -87,7 +87,7 @@ h2 {
 }
 
 .card__title {
-  font-size: 25px;
+  font-size: 22px;
   padding-bottom: 10px;
 }
 
